@@ -1,0 +1,9 @@
+class types
+*integer  (2,4,5,6)
+*string  "variable"
+*tuple  (magi,gokul)
+*bool   (true,false)
+*complex   3+5j
+*list      [2,3,5]
+*dictionary { }
+*float     3.5
