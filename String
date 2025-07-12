@@ -1,0 +1,45 @@
+lower()
+     a="MAGI"
+     b=a.lower()
+     print(b)
+
+     magi
+upper()
+    a="magi"
+    b=a.upper()
+    print(b)
+
+    MAGI
+
+find()
+    a="mageshkumar"
+    b=a.find("k")
+    print(b)
+
+    6
+replace()
+    a="I am from vellore"
+    b=a.replace("vellore","Gudiyatham")
+    print(b)
+
+    I am from Gudiyatham
+strip()
+    a="magi"
+    b=a.strip()
+    print("kabbadi plager of ",b,"in champion")
+
+    kabbadi player of magi in champion
+split()
+    a="magi of hinata"
+    b=a.split()
+    print(b)
+
+    ['magi', 'of', 'hinata']
+join()
+    a="magi","gokul"
+    b="+".join(a)
+    print(b)
+
+    magi+gokul
+
+
