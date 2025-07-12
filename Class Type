@@ -1,0 +1,40 @@
+integer
+     a=1233474
+     print(type(a))
+
+     <class 'int'>
+string
+      a="magi"
+      print(type(a))
+
+      <class 'str'>
+list
+      a=[12,45]
+      print(type(a))
+
+      <class 'list'>
+tuple
+     a=(12,45)
+     print(type(a))
+
+     <class 'tuple'>
+complex
+     a=2+5j
+     print(type(a))
+
+     <class 'complex'>
+dictionary 
+      a={1:5}
+      print(type(a))
+
+      <class 'dict'>
+set 
+       a={1}
+       print(type(a))
+
+       <class 'set'>
+float
+       a=3.5
+       print(type(a))
+
+       <class 'float'>
