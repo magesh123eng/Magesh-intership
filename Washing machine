@@ -1,0 +1,22 @@
+a=int(input("Enter washing time:"))
+if a>=9:
+	print("runnung")
+else:
+	print("not running")
+
+
+   Enter washing time:10
+   running
+
+
+a=int(input("enter over all kg washing machine:"))
+if a==20:
+	print("running")
+elif a<=50:
+	print("not running")
+else:
+	print("washing mechine is running")
+
+
+enter over all kg washing machine:60
+washing mechine is running
