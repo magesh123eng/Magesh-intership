@@ -1,0 +1,40 @@
+clear()
+     a={"magi":"12","gokul":"23"}
+     b=a.clear()
+     print(a)
+
+     {}
+get
+     a={"magi":"gokul"}
+     b=a.get("magi")
+     print(b)
+
+     gokul
+key
+     a={"magi":"average",
+      "gokul":"topper",
+      "harish":"mass"}
+     b=a.keys()
+     print(b)
+
+     dict_keys(['magi', 'gokul', 'harish'])
+values
+     a={"magi":"average",
+      "gokul":"topper",
+      "harish":"mass"}
+     b=a.values()
+     print(b)
+
+     dict_values(['average', 'topper', 'mass'])
+
+pop
+     a={"magi":"average",
+      "gokul":"topper",
+      "harish":"mass"}
+     b=a.pop("gokul")
+     print(a)
+
+     {'magi': 'average', 'harish': 'mass'}
+
+
+     
