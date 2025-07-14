@@ -1,0 +1,15 @@
+True()
+    a=100
+    b=80
+    c=a!=b
+    print(c)
+
+    True
+
+False()
+    a=100
+    b=80
+    c=a==b
+    print(c)
+
+    Flase
