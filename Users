@@ -1,0 +1,26 @@
+import string
+
+a= ["Magi@123","gokul@123","sanjai@123"]
+
+
+def is_valid_password(password):
+    has_upper = any(c.isupper() for c in password)
+    has_lower = any(c.islower() for c in password )
+    has_digit = any(c.isdigit() for c in password)
+    has_special = any(c in string.punctuation for c in password)
+
+    return has_upper and has_lower and has_digit and has_special
+
+password= input("Enter password : ")
+
+if password in a:
+    if is_valid_password(password):
+        print("strong password")
+    else:
+        print("wrong password")
+else:
+	print("both are wrong")
+
+ Enter password : Magi@123
+strong password
+
